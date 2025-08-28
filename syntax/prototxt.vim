@@ -5,7 +5,7 @@ endif
 syntax match prototxtIdentifier "\v\w+\s*(:|\{)@="
 highlight link prototxtIdentifier Identifier
 
-syntax match prototxtComment "\v#.*$"
+syntax match prototxtComment "\v//.*$"
 highlight link prototxtComment Comment
 
 syntax region prototxtString start=/\v"/ skip=/\v\\./ end=/\v"/
