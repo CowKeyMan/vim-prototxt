@@ -5,7 +5,7 @@ endif
 syntax match pbtxtIdentifier "\v\w+\s*(:|\{)@="
 highlight link pbtxtIdentifier Identifier
 
-syntax match pbtxtComment "\v//.*$"
+syntax match pbtxtComment "\v#.*$"
 highlight link pbtxtComment Comment
 
 syntax region pbtxtString start=/\v"/ skip=/\v\\./ end=/\v"/
